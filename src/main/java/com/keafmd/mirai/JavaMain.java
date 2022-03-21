@@ -12,10 +12,8 @@ import java.io.IOException;
 
 public class JavaMain {
     public static void main(String[] args) {
-//        Bot bot = BotFactory.INSTANCE.newBot(2067733927, "xiaoshuo0305aa");
         Bot bot = BotFactory.INSTANCE.newBot(2787732627L, "200003050");
-//        Bot bot = BotFactory.INSTANCE.newBot(2057736907, "zhl200003050");
-//        Bot bot = BotFactory.INSTANCE.newBot(674155030, "xiaoshuo0305aa");
+
         bot.login();
 
         JavaMain.afterLogin(bot);
